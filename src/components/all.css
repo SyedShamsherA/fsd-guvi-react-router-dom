@@ -1,0 +1,38 @@
+.card{
+    width: calc(33.33% - 20px); /* Calculate width for 3 cards in a row with margins */
+  margin: 10px; /* Adjust margin as needed for spacing between cards */
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card img{
+    max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.course-list{
+    margin-top: 150px;
+    margin-left: 175px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
